@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\FolderCreatorBundle\Command;
+namespace TorqNorth\FolderCreatorBundle\Command;
 
 use Pimcore\Console\AbstractCommand;
 use Symfony\Component\Console\Input\InputInterface;
@@ -15,7 +15,7 @@ class FolderCreatorCommand extends AbstractCommand
     protected function configure()
     {
         $this
-            ->setName('torq:folder-creator')
+            ->setName('torqnorth:folder-creator')
             ->setDescription('Command for creating the layout of the Pimcore folder structure in the admin interface.');
     }
 

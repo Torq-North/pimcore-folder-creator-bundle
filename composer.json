@@ -1,19 +1,19 @@
 {
-    "name": "torqit/pimcore-folder-creator-bundle",
-    "type": "pimcore-bundle",
-    "require": {
-        "pimcore/pimcore": "^11.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "TorqIT\\FolderCreatorBundle\\": "src"
-        }
-    },
-    "extra": {
-        "pimcore": {
-            "bundles": [
-                "TorqIT\\FolderCreatorBundle\\FolderCreatorBundle"
-            ]
-        }
+  "name": "torqnorth/pimcore-folder-creator-bundle",
+  "type": "pimcore-bundle",
+  "require": {
+    "pimcore/pimcore": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TorqNorth\\FolderCreatorBundle\\": "src"
     }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "TorqNorth\\FolderCreatorBundle\\FolderCreatorBundle"
+      ]
+    }
+  }
 }

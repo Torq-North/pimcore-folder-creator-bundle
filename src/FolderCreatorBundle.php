@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\FolderCreatorBundle;
+namespace TorqNorth\FolderCreatorBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 
