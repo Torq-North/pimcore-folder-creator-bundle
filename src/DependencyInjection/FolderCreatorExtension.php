@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\FolderCreatorBundle\DependencyInjection;
+namespace TorqNorth\FolderCreatorBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
